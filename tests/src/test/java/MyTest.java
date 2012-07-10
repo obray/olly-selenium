@@ -40,6 +40,15 @@ public class MyTest {
 
         testCodesCrud(browser);
     }
+	
+	@Test
+    public void testChromeAgain()  throws MalformedURLException, IOException {
+		
+        DesiredCapabilities browser = DesiredCapabilities.chrome();
+		
+        testCodesCrud(browser);
+    }
+	
 
     public void testCodesCrud(DesiredCapabilities browser)
             throws MalformedURLException, IOException {
