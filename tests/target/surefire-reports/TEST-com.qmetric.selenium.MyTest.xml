@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="10.196" errors="0" skipped="0" tests="2" name="com.qmetric.selenium.MyTest">
+<testsuite failures="0" time="9.369" errors="0" skipped="0" tests="2" name="com.qmetric.selenium.MyTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
@@ -22,7 +22,7 @@
     <property name="basedir" value="/Users/oliverbray/projects/olly-selenium/tests"/>
     <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="surefire.real.class.path" value="/Users/oliverbray/projects/olly-selenium/tests/target/surefire/surefirebooter1105502865116206334.jar"/>
+    <property name="surefire.real.class.path" value="/Users/oliverbray/projects/olly-selenium/tests/target/surefire/surefirebooter3585195194508791812.jar"/>
     <property name="java.io.tmpdir" value="/var/folders/Mm/MmjKzmNOFjaFVTh3xrLuuk+++TI/-Tmp-/"/>
     <property name="line.separator" value="
 "/>
@@ -64,6 +64,6 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="5.202" classname="com.qmetric.selenium.MyTest" name="testFirefox"/>
-  <testcase time="4.965" classname="com.qmetric.selenium.MyTest" name="testChrome"/>
+  <testcase time="4.424" classname="com.qmetric.selenium.MyTest" name="testFirefox"/>
+  <testcase time="4.916" classname="com.qmetric.selenium.MyTest" name="testChrome"/>
 </testsuite>

@@ -23,6 +23,15 @@ public class MyTest {
 
         testCodesCrud(browser);
     }
+	
+	@Test
+    public void testFirefoxAgain()  throws MalformedURLException, IOException {
+		
+        DesiredCapabilities browser = DesiredCapabilities.firefox();
+		
+        testCodesCrud(browser);
+    }
+	
 
      @Test
     public void testChrome()  throws MalformedURLException, IOException {
