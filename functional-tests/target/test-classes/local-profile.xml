@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Grid-Profile" parallel="tests" thread-count="10" >
+
+    <parameter name="hubHost" value="localhost" />
+    <parameter name="hubPort" value="4444" />
+    <parameter name="defaultWebappUrl" value="http://localhost" />
+    <parameter name="enquiryCreationPostForm" value="https://localhost" />
+
+    <test name="Firefox" parallel="classes">
+        <parameter name="browserId" value="firefox"/>
+        <packages>
+            <package name="com.qmetric.tests.*" />
+        </packages>
+    </test>
+    
+    <test name="GoogleChrome" parallel="classes">
+        <parameter name="browserId" value="chrome"/>
+        <packages>
+            <package name="com.qmetric.tests.*" />
+        </packages>
+    </test>
+
+</suite>

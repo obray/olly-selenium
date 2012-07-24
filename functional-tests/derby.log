@@ -1,0 +1,180 @@
+----------------------------------------------------------------
+2012-07-23 08:34:10.897 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.3.1.4 - (561794): instance c013800d-0138-b2f8-deec-000007c19260
+on database directory /www/vhosts/magnolia/repositories/magnoliaPublic/magnolia/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2012-07-23 08:34:11.452 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.3.1.4 - (561794): instance b8450018-0138-b2f8-deec-000007c19260
+on database directory /www/vhosts/magnolia/repositories/magnoliaPublic/magnolia/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2012-07-23 08:34:12.009 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.3.1.4 - (561794): instance a094c023-0138-b2f8-deec-000007c19260
+on database directory /www/vhosts/magnolia/repositories/magnoliaPublic/magnolia/workspaces/website/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2012-07-23 08:34:12.567 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.3.1.4 - (561794): instance a902c02e-0138-b2f8-deec-000007c19260
+on database directory /www/vhosts/magnolia/repositories/magnoliaPublic/magnolia/workspaces/config/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2012-07-23 08:34:12.868 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.3.1.4 - (561794): instance 018f0039-0138-b2f8-deec-000007c19260
+on database directory /www/vhosts/magnolia/repositories/magnoliaPublic/magnolia/workspaces/users/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2012-07-23 08:34:13.020 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.3.1.4 - (561794): instance da398044-0138-b2f8-deec-000007c19260
+on database directory /www/vhosts/magnolia/repositories/magnoliaPublic/magnolia/workspaces/userroles/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2012-07-23 08:34:13.216 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.3.1.4 - (561794): instance 6302404f-0138-b2f8-deec-000007c19260
+on database directory /www/vhosts/magnolia/repositories/magnoliaPublic/magnolia/workspaces/usergroups/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2012-07-23 08:34:13.419 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.3.1.4 - (561794): instance cbe9405a-0138-b2f8-deec-000007c19260
+on database directory /www/vhosts/magnolia/repositories/magnoliaPublic/magnolia/workspaces/mgnlSystem/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2012-07-23 08:34:13.585 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.3.1.4 - (561794): instance 44ee8065-0138-b2f8-deec-000007c19260
+on database directory /www/vhosts/magnolia/repositories/magnoliaPublic/magnolia/workspaces/mgnlVersion/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2012-07-23 08:34:14.114 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.3.1.4 - (561794): instance fe120070-0138-b2f8-deec-000007c19260
+on database directory /www/vhosts/magnolia/repositories/magnoliaPublic/magnolia/workspaces/imaging/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2012-07-23 08:34:14.260 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.3.1.4 - (561794): instance 2753c07b-0138-b2f8-deec-000007c19260
+on database directory /www/vhosts/magnolia/repositories/magnoliaPublic/magnolia/workspaces/templates/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2012-07-23 08:34:14.533 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.3.1.4 - (561794): instance f0b3c086-0138-b2f8-deec-000007c19260
+on database directory /www/vhosts/magnolia/repositories/magnoliaPublic/magnolia/workspaces/packager/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2012-07-23 08:34:14.683 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.3.1.4 - (561794): instance 8a320091-0138-b2f8-deec-000007c19260
+on database directory /www/vhosts/magnolia/repositories/magnoliaPublic/magnolia/workspaces/dms/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2012-07-23 08:34:14.957 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.3.1.4 - (561794): instance 23ce809c-0138-b2f8-deec-000007c19260
+on database directory /www/vhosts/magnolia/repositories/magnoliaPublic/magnolia/workspaces/resources/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2012-07-23 08:34:15.134 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.3.1.4 - (561794): instance ed8940a7-0138-b2f8-deec-000007c19260
+on database directory /www/vhosts/magnolia/repositories/magnoliaPublic/magnolia/workspaces/forum/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2012-07-23 08:34:15.278 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.3.1.4 - (561794): instance 176240b2-0138-b2f8-deec-000007c19260
+on database directory /www/vhosts/magnolia/repositories/magnoliaPublic/magnolia/workspaces/Store/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2012-07-23 08:34:15.426 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.3.1.4 - (561794): instance d15980bd-0138-b2f8-deec-000007c19260
+on database directory /www/vhosts/magnolia/repositories/magnoliaPublic/magnolia/workspaces/Expressions/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2012-07-23 08:34:16.061 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.3.1.4 - (561794): instance 4b6f00c8-0138-b2f8-deec-000007c19260
+on database directory /www/vhosts/magnolia/repositories/magnoliaPublic/magnolia/workspaces/data/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2012-07-24 13:08:09.131 GMT:
+Shutting down instance cbe9405a-0138-b2f8-deec-000007c19260
+----------------------------------------------------------------
+
+2012-07-24 13:08:09.254 GMT:
+Shutting down instance 23ce809c-0138-b2f8-deec-000007c19260
+----------------------------------------------------------------
+
+2012-07-24 13:08:09.295 GMT:
+Shutting down instance 018f0039-0138-b2f8-deec-000007c19260
+----------------------------------------------------------------
+
+2012-07-24 13:08:09.347 GMT:
+Shutting down instance ed8940a7-0138-b2f8-deec-000007c19260
+----------------------------------------------------------------
+
+2012-07-24 13:08:09.372 GMT:
+Shutting down instance f0b3c086-0138-b2f8-deec-000007c19260
+----------------------------------------------------------------
+
+2012-07-24 13:08:09.396 GMT:
+Shutting down instance 2753c07b-0138-b2f8-deec-000007c19260
+----------------------------------------------------------------
+
+2012-07-24 13:08:09.418 GMT:
+Shutting down instance a094c023-0138-b2f8-deec-000007c19260
+----------------------------------------------------------------
+
+2012-07-24 13:08:09.465 GMT:
+Shutting down instance d15980bd-0138-b2f8-deec-000007c19260
+----------------------------------------------------------------
+
+2012-07-24 13:08:09.492 GMT:
+Shutting down instance 176240b2-0138-b2f8-deec-000007c19260
+----------------------------------------------------------------
+
+2012-07-24 13:08:09.523 GMT:
+Shutting down instance 4b6f00c8-0138-b2f8-deec-000007c19260
+----------------------------------------------------------------
+
+2012-07-24 13:08:09.546 GMT:
+Shutting down instance 8a320091-0138-b2f8-deec-000007c19260
+----------------------------------------------------------------
+
+2012-07-24 13:08:09.572 GMT:
+Shutting down instance fe120070-0138-b2f8-deec-000007c19260
+----------------------------------------------------------------
+
+2012-07-24 13:08:09.588 GMT:
+Shutting down instance b8450018-0138-b2f8-deec-000007c19260
+----------------------------------------------------------------
+
+2012-07-24 13:08:09.639 GMT:
+Shutting down instance da398044-0138-b2f8-deec-000007c19260
+----------------------------------------------------------------
+
+2012-07-24 13:08:09.681 GMT:
+Shutting down instance a902c02e-0138-b2f8-deec-000007c19260
+----------------------------------------------------------------
+
+2012-07-24 13:08:09.725 GMT:
+Shutting down instance 44ee8065-0138-b2f8-deec-000007c19260
+----------------------------------------------------------------
+
+2012-07-24 13:08:09.769 GMT:
+Shutting down instance 6302404f-0138-b2f8-deec-000007c19260
+----------------------------------------------------------------
+
+2012-07-24 13:08:09.871 GMT:
+Shutting down instance c013800d-0138-b2f8-deec-000007c19260
+----------------------------------------------------------------

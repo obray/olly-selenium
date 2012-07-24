@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="10" failed="0" total="15" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Grid-Profile" duration-ms="43181" started-at="2012-07-24T15:04:11Z" finished-at="2012-07-24T15:04:55Z">
+    <groups>
+    </groups>
+    <test name="GoogleChrome" duration-ms="21678" started-at="2012-07-24T15:04:11Z" finished-at="2012-07-24T15:04:33Z">
+      <class name="com.qmetric.tests.PageOneUITest">
+        <test-method status="FAIL" signature="setUp(java.lang.String, int, java.lang.String, java.lang.String, java.lang.String)" name="setUp" is-config="true" duration-ms="0" started-at="2012-07-24T15:04:11Z" finished-at="2012-07-24T15:04:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ec2-46-137-83-19.eu-west-1.compute.amazonaws.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4444]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://uat.policyexpert.co.uk]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://uat.policyexpert.co.uk]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Error forwarding the new session Error forwarding the request Connection to http://ec2-176-34-211-176.eu-west-1.compute.amazonaws.com:5555 refused
+Build info: version: '2.24.1', revision: '17205', time: '2012-06-19 15:28:49'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.6.8', java.version: '1.6.0_33'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Error forwarding the new session Error forwarding the request Connection to http://ec2-176-34-211-176.eu-west-1.compute.amazonaws.com:5555 refused
+Build info: version: '2.24.1', revision: '17205', time: '2012-06-19 15:28:49'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.6.8', java.version: '1.6.0_33'
+Driver info: driver.version: RemoteWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:131)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:105)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:409)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:108)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:86)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:94)
+	at com.qmetric.utility.AbstractTest.setUp(AbstractTest.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:76)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:525)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:202)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:130)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:173)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Error forwarding the new session Error forwarding the request Connection to http://ec2-176-34-211-176.eu-west-1.compute.amazonaws.com:5555 refused
+Build info: version: '2.24.1', revision: '17205', time: '2012-06-19 15:28:49'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.6.8', java.version: '1.6.0_33'
+Driver info: driver.version: unknown
+	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:151)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:81)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.openqa.jetty.jetty.servlet.ServletHolder.handle(ServletHolder.java:428)
+	at org.openqa.jetty.jetty.servlet.WebApplicationHandler.dispatch(WebApplicationHandler.java:473)
+	at org.openqa.jetty.jetty.servlet.ServletHandler.handle(ServletHandler.java:568)
+	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1530)
+	at org.openqa.jetty.jetty.servlet.WebApplicationContext.handle(WebApplicationContext.java:633)
+	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1482)
+	at org.openqa.jetty.http.HttpServer.service(HttpServer.java:909)
+	at org.openqa.jetty.http.HttpConnection.service(HttpConnection.java:820)
+	at org.openqa.jetty.http.HttpConnection.handleNext(HttpConnection.java:986)
+	at org.openqa.jetty.http.HttpConnection.handle(HttpConnection.java:837)
+	at org.openqa.jetty.http.SocketListener.handleConnection(SocketListener.java:243)
+	at org.openqa.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.openqa.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="SKIP" signature="getToPage1()" name="getToPage1" is-config="true" duration-ms="0" started-at="2012-07-24T15:04:33Z" finished-at="2012-07-24T15:04:33Z">
+        </test-method>
+        <test-method status="SKIP" signature="testAddressSearch()" name="testAddressSearch" duration-ms="0" started-at="2012-07-24T15:04:33Z" finished-at="2012-07-24T15:04:33Z">
+        </test-method>
+        <test-method status="SKIP" signature="getToPage1()" name="getToPage1" is-config="true" duration-ms="0" started-at="2012-07-24T15:04:33Z" finished-at="2012-07-24T15:04:33Z">
+        </test-method>
+        <test-method status="SKIP" signature="testPropertyTypeDropDowns()" name="testPropertyTypeDropDowns" duration-ms="0" started-at="2012-07-24T15:04:33Z" finished-at="2012-07-24T15:04:33Z">
+        </test-method>
+        <test-method status="SKIP" signature="getToPage1()" name="getToPage1" is-config="true" duration-ms="0" started-at="2012-07-24T15:04:33Z" finished-at="2012-07-24T15:04:33Z">
+        </test-method>
+        <test-method status="SKIP" signature="testAddressSearchValidationText()" name="testAddressSearchValidationText" duration-ms="0" started-at="2012-07-24T15:04:33Z" finished-at="2012-07-24T15:04:33Z">
+        </test-method>
+        <test-method status="SKIP" signature="getToPage1()" name="getToPage1" is-config="true" duration-ms="0" started-at="2012-07-24T15:04:33Z" finished-at="2012-07-24T15:04:33Z">
+        </test-method>
+        <test-method status="SKIP" signature="getToPage1()" name="getToPage1" is-config="true" duration-ms="0" started-at="2012-07-24T15:04:33Z" finished-at="2012-07-24T15:04:33Z">
+        </test-method>
+        <test-method status="SKIP" signature="testPageTitle()" name="testPageTitle" duration-ms="0" started-at="2012-07-24T15:04:33Z" finished-at="2012-07-24T15:04:33Z">
+        </test-method>
+        <test-method status="SKIP" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2012-07-24T15:04:33Z" finished-at="2012-07-24T15:04:33Z">
+        </test-method>
+        <test-method status="SKIP" signature="testAddressManualEdit()" name="testAddressManualEdit" duration-ms="0" started-at="2012-07-24T15:04:33Z" finished-at="2012-07-24T15:04:33Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Firefox" duration-ms="43181" started-at="2012-07-24T15:04:11Z" finished-at="2012-07-24T15:04:55Z">
+      <class name="com.qmetric.tests.PageOneUITest">
+        <test-method status="PASS" signature="setUp(java.lang.String, int, java.lang.String, java.lang.String, java.lang.String)" name="setUp" is-config="true" duration-ms="4022" started-at="2012-07-24T15:04:11Z" finished-at="2012-07-24T15:04:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ec2-46-137-83-19.eu-west-1.compute.amazonaws.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4444]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://uat.policyexpert.co.uk]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://uat.policyexpert.co.uk]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getToPage1()" name="getToPage1" is-config="true" duration-ms="1415" started-at="2012-07-24T15:04:15Z" finished-at="2012-07-24T15:04:17Z">
+        </test-method>
+        <test-method status="PASS" signature="testAddressSearch()" name="testAddressSearch" duration-ms="7876" started-at="2012-07-24T15:04:17Z" finished-at="2012-07-24T15:04:25Z">
+        </test-method>
+        <test-method status="PASS" signature="getToPage1()" name="getToPage1" is-config="true" duration-ms="1128" started-at="2012-07-24T15:04:25Z" finished-at="2012-07-24T15:04:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testPropertyTypeDropDowns()" name="testPropertyTypeDropDowns" duration-ms="15059" started-at="2012-07-24T15:04:26Z" finished-at="2012-07-24T15:04:41Z">
+        </test-method>
+        <test-method status="PASS" signature="getToPage1()" name="getToPage1" is-config="true" duration-ms="1111" started-at="2012-07-24T15:04:41Z" finished-at="2012-07-24T15:04:42Z">
+        </test-method>
+        <test-method status="PASS" signature="testAddressSearchValidationText()" name="testAddressSearchValidationText" duration-ms="2329" started-at="2012-07-24T15:04:42Z" finished-at="2012-07-24T15:04:44Z">
+        </test-method>
+        <test-method status="PASS" signature="getToPage1()" name="getToPage1" is-config="true" duration-ms="1065" started-at="2012-07-24T15:04:44Z" finished-at="2012-07-24T15:04:45Z">
+        </test-method>
+        <test-method status="PASS" signature="testPageTitle()" name="testPageTitle" duration-ms="2220" started-at="2012-07-24T15:04:45Z" finished-at="2012-07-24T15:04:48Z">
+        </test-method>
+        <test-method status="PASS" signature="getToPage1()" name="getToPage1" is-config="true" duration-ms="712" started-at="2012-07-24T15:04:48Z" finished-at="2012-07-24T15:04:48Z">
+        </test-method>
+        <test-method status="PASS" signature="testAddressManualEdit()" name="testAddressManualEdit" duration-ms="6067" started-at="2012-07-24T15:04:48Z" finished-at="2012-07-24T15:04:54Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="166" started-at="2012-07-24T15:04:54Z" finished-at="2012-07-24T15:04:55Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="InternetExplorer" duration-ms="12045" started-at="2012-07-24T15:04:11Z" finished-at="2012-07-24T15:04:23Z">
+      <class name="com.qmetric.tests.PageOneUITest">
+        <test-method status="PASS" signature="setUp(java.lang.String, int, java.lang.String, java.lang.String, java.lang.String)" name="setUp" is-config="true" duration-ms="1162" started-at="2012-07-24T15:04:11Z" finished-at="2012-07-24T15:04:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ec2-46-137-83-19.eu-west-1.compute.amazonaws.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4444]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://uat.policyexpert.co.uk]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://uat.policyexpert.co.uk]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="FAIL" signature="getToPage1()" name="getToPage1" is-config="true" duration-ms="0" started-at="2012-07-24T15:04:13Z" finished-at="2012-07-24T15:04:13Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with xpath == //button[@type='submit'] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.17.0', revision: '15540', time: '2012-01-16 16:51:46'
+System info: os.name: 'Windows 2003', os.arch: 'x86', os.version: '5.2', java.version: '1.6.0_31'
+Driver info: driver.version: EventFiringWebDriver
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.24.1', revision: '17205', time: '2012-06-19 15:28:49'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.6.8', java.version: '1.6.0_33'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //button[@type='submit'] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.17.0', revision: '15540', time: '2012-01-16 16:51:46'
+System info: os.name: 'Windows 2003', os.arch: 'x86', os.version: '5.2', java.version: '1.6.0_31'
+Driver info: driver.version: EventFiringWebDriver
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.24.1', revision: '17205', time: '2012-06-19 15:28:49'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.6.8', java.version: '1.6.0_33'
+Driver info: driver.version: RemoteWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:131)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:105)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:409)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:197)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:270)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:343)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:189)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at $Proxy10.click(Unknown Source)
+	at com.qmetric.pages.LandingPage.clickNewEnquiry(LandingPage.java:22)
+	at com.qmetric.pages.LandingPage.startNewEnquiry(LandingPage.java:26)
+	at com.qmetric.tests.PageOneUITest.getToPage1(PageOneUITest.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:76)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:525)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:202)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:613)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:846)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1170)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: '2.24.1', revision: '17205', time: '2012-06-19 15:28:49'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.6.8', java.version: '1.6.0_33'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:99)
+	... 26 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //button[@type='submit'] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.17.0', revision: '15540', time: '2012-01-16 16:51:46'
+System info: os.name: 'Windows 2003', os.arch: 'x86', os.version: '5.2', java.version: '1.6.0_31'
+Driver info: driver.version: EventFiringWebDriver
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.24.1', revision: '17205', time: '2012-06-19 15:28:49'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.6.8', java.version: '1.6.0_33'
+Driver info: driver.version: EventFiringWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:147)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:113)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:439)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:226)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:299)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:218)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:100)
+	at $Proxy2.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:179)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="SKIP" signature="getToPage1()" name="getToPage1" is-config="true" duration-ms="0" started-at="2012-07-24T15:04:23Z" finished-at="2012-07-24T15:04:23Z">
+        </test-method>
+        <test-method status="SKIP" signature="testAddressSearch()" name="testAddressSearch" duration-ms="0" started-at="2012-07-24T15:04:23Z" finished-at="2012-07-24T15:04:23Z">
+        </test-method>
+        <test-method status="SKIP" signature="getToPage1()" name="getToPage1" is-config="true" duration-ms="0" started-at="2012-07-24T15:04:23Z" finished-at="2012-07-24T15:04:23Z">
+        </test-method>
+        <test-method status="SKIP" signature="testPropertyTypeDropDowns()" name="testPropertyTypeDropDowns" duration-ms="0" started-at="2012-07-24T15:04:23Z" finished-at="2012-07-24T15:04:23Z">
+        </test-method>
+        <test-method status="SKIP" signature="testAddressSearchValidationText()" name="testAddressSearchValidationText" duration-ms="0" started-at="2012-07-24T15:04:23Z" finished-at="2012-07-24T15:04:23Z">
+        </test-method>
+        <test-method status="SKIP" signature="getToPage1()" name="getToPage1" is-config="true" duration-ms="0" started-at="2012-07-24T15:04:23Z" finished-at="2012-07-24T15:04:23Z">
+        </test-method>
+        <test-method status="SKIP" signature="testPageTitle()" name="testPageTitle" duration-ms="1" started-at="2012-07-24T15:04:23Z" finished-at="2012-07-24T15:04:23Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="290" started-at="2012-07-24T15:04:23Z" finished-at="2012-07-24T15:04:23Z">
+        </test-method>
+        <test-method status="SKIP" signature="getToPage1()" name="getToPage1" is-config="true" duration-ms="0" started-at="2012-07-24T15:04:23Z" finished-at="2012-07-24T15:04:23Z">
+        </test-method>
+        <test-method status="SKIP" signature="testAddressManualEdit()" name="testAddressManualEdit" duration-ms="0" started-at="2012-07-24T15:04:23Z" finished-at="2012-07-24T15:04:23Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

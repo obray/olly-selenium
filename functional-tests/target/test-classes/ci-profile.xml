@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Grid-Profile" parallel="tests" thread-count="10" >
+
+    <parameter name="hubHost" value="ec2-46-137-83-19.eu-west-1.compute.amazonaws.com" />
+    <parameter name="hubPort" value="4444" />
+    <parameter name="defaultWebappUrl" value="http://uat.policyexpert.co.uk" />
+    <parameter name="enquiryCreationPostForm" value="https://uat.policyexpert.co.uk" />
+
+    <test name="Firefox" parallel="classes">
+        <parameter name="browserId" value="firefox"/>
+        <packages>
+            <package name="com.qmetric.tests.*" />
+        </packages>
+    </test>
+    
+    <test name="GoogleChrome" parallel="classes">
+        <parameter name="browserId" value="chrome"/>
+        <packages>
+            <package name="com.qmetric.tests.*" />
+        </packages>
+    </test>
+
+    <test name="InternetExplorer" parallel="classes">
+        <parameter name="browserId" value="internet explorer"/>
+        <packages>
+            <package name="com.qmetric.tests.*" />
+        </packages>
+    </test>
+
+</suite>
