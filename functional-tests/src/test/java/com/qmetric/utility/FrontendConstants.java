@@ -10,7 +10,8 @@ public class FrontendConstants {
 
     // Web elements
     public final static String FRONT_LANDING_PAGE_NEW_ENQUIRY_BUTTON = "//button[@type='submit']";
-
+    //public final static String FRONT_LANDING_PAGE_NEW_ENQUIRY_BUTTON = "button[type='submit']";
+    //public final static String FRONT_LANDING_PAGE_NEW_ENQUIRY_BUTTON = "purple";
 
     public final static String FRONT_PAGE1_ADDRESS_SEARCH_BUTTON = "addressSearch";
     public final static String FRONT_PAGE1_POSTCODE_ERROR_MESSAGE = "postcodeErrorMsg";

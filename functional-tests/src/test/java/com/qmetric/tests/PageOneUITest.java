@@ -20,6 +20,7 @@ public class PageOneUITest extends AbstractTest {
 
     @Test
     public void testPageTitle() throws Exception {
+        System.out.println(driver.getTitle() + " in " + browserName);
         assert driver.getTitle().equals(FRONT_PAGE1_TITLE);
     }
 

@@ -1,50 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="Oliver-Brays-iMac.local" name="com.qmetric.tests.PageOneUITest" tests="5" failures="0" timestamp="24 Jul 2012 14:04:33 GMT" time="21.678" errors="0">
-  <testcase name="@BeforeClass setUp" time="0.0" classname="com.qmetric.tests.PageOneUITest">
-    <failure type="org.openqa.selenium.WebDriverException" message="Error forwarding the new session Error forwarding the request Connection to http://ec2-176-34-211-176.eu-west-1.compute.amazonaws.com:5555 refused
-Build info: version: &amp;apos;2.24.1&amp;apos;, revision: &amp;apos;17205&amp;apos;, time: &amp;apos;2012-06-19 15:28:49&amp;apos;
-System info: os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.6.8&amp;apos;, java.version: &amp;apos;1.6.0_33&amp;apos;
-Driver info: driver.version: RemoteWebDriver">
-      <![CDATA[org.openqa.selenium.WebDriverException: Error forwarding the new session Error forwarding the request Connection to http://ec2-176-34-211-176.eu-west-1.compute.amazonaws.com:5555 refused
-Build info: version: '2.24.1', revision: '17205', time: '2012-06-19 15:28:49'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.6.8', java.version: '1.6.0_33'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:131)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:105)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:409)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:108)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:86)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:94)
-	at com.qmetric.utility.AbstractTest.setUp(AbstractTest.java:32)
+<testsuite hostname="Oliver-Brays-iMac.local" name="com.qmetric.tests.LandingPageTest" tests="6" failures="0" timestamp="27 Jul 2012 14:55:23 GMT" time="0.027" errors="0">
+  <testcase name="@BeforeClass setUp" time="0.0" classname="com.qmetric.tests.LandingPageTest">
+    <failure type="org.testng.TestNGException" message="
+Parameter &amp;apos;browserVersion&amp;apos; is required by @Configuration on method setUp
+but has not been marked @Optional or defined in /Users/oliverbray/projects/olly-selenium/functional-tests/src/test/resources/local-profile.xml">
+      <![CDATA[org.testng.TestNGException: 
+Parameter 'browserVersion' is required by @Configuration on method setUp
+but has not been marked @Optional or defined in /Users/oliverbray/projects/olly-selenium/functional-tests/src/test/resources/local-profile.xml
 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
 	at java.lang.Thread.run(Thread.java:680)
-Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Error forwarding the new session Error forwarding the request Connection to http://ec2-176-34-211-176.eu-west-1.compute.amazonaws.com:5555 refused
-Build info: version: '2.24.1', revision: '17205', time: '2012-06-19 15:28:49'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.6.8', java.version: '1.6.0_33'
-Driver info: driver.version: unknown
-	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:151)
-	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:81)
-	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:67)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
-	at org.openqa.jetty.jetty.servlet.ServletHolder.handle(ServletHolder.java:428)
-	at org.openqa.jetty.jetty.servlet.WebApplicationHandler.dispatch(WebApplicationHandler.java:473)
-	at org.openqa.jetty.jetty.servlet.ServletHandler.handle(ServletHandler.java:568)
-	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1530)
-	at org.openqa.jetty.jetty.servlet.WebApplicationContext.handle(WebApplicationContext.java:633)
-	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1482)
-	at org.openqa.jetty.http.HttpServer.service(HttpServer.java:909)
-	at org.openqa.jetty.http.HttpConnection.service(HttpConnection.java:820)
-	at org.openqa.jetty.http.HttpConnection.handleNext(HttpConnection.java:986)
-	at org.openqa.jetty.http.HttpConnection.handle(HttpConnection.java:837)
-	at org.openqa.jetty.http.SocketListener.handleConnection(SocketListener.java:243)
-	at org.openqa.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
-	at org.openqa.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
-... Removed 14 stack frames]]>
+... Removed 7 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@BeforeClass setUp" time="0.0" classname="com.qmetric.tests.PageOneUITest">
+    <failure type="org.testng.TestNGException" message="
+Parameter &amp;apos;browserVersion&amp;apos; is required by @Configuration on method setUp
+but has not been marked @Optional or defined in /Users/oliverbray/projects/olly-selenium/functional-tests/src/test/resources/local-profile.xml">
+      <![CDATA[org.testng.TestNGException: 
+Parameter 'browserVersion' is required by @Configuration on method setUp
+but has not been marked @Optional or defined in /Users/oliverbray/projects/olly-selenium/functional-tests/src/test/resources/local-profile.xml
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+... Removed 7 stack frames]]>
     </failure>
   </testcase>
   <testcase name="@BeforeMethod getToPage1" time="0.0" classname="com.qmetric.tests.PageOneUITest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod getToLandingPage" time="0.0" classname="com.qmetric.tests.LandingPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterClass tearDown" time="0.0" classname="com.qmetric.tests.LandingPageTest">
     <skipped/>
   </testcase>
   <testcase name="@BeforeMethod getToPage1" time="0.0" classname="com.qmetric.tests.PageOneUITest">
@@ -62,7 +50,10 @@ Driver info: driver.version: unknown
   <testcase name="@AfterClass tearDown" time="0.0" classname="com.qmetric.tests.PageOneUITest">
     <skipped/>
   </testcase>
-  <testcase name="testAddressSearch" time="0.0" classname="com.qmetric.tests.PageOneUITest">
+  <testcase name="testPageTitle" time="0.0040" classname="com.qmetric.tests.LandingPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="testAddressSearch" time="0.0050" classname="com.qmetric.tests.PageOneUITest">
     <skipped/>
   </testcase>
   <testcase name="testPropertyTypeDropDowns" time="0.0" classname="com.qmetric.tests.PageOneUITest">

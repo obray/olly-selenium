@@ -29,7 +29,7 @@ public class QSPage1 {
     @FindBy(how = How.ID_OR_NAME, using = FRONT_PAGE1_ADDRESS_TEXT)
     public WebElement your_address;
 
-    @FindBy(how = How.PARTIAL_LINK_TEXT, using = FRONT_PAGE1_EDIT_ADDRESS_LINK)
+    @FindBy(how = How.LINK_TEXT, using = FRONT_PAGE1_EDIT_ADDRESS_LINK)
     public WebElement editAddress;
 
     @FindBy(how = How.ID_OR_NAME, using = FRONT_PAGE1_ADDRESS_LINE1_TEXTBOX)

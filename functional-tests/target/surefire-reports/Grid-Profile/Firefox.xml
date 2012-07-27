@@ -1,8 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="Oliver-Brays-iMac.local" name="com.qmetric.tests.PageOneUITest" tests="5" failures="0" timestamp="24 Jul 2012 14:04:55 GMT" time="43.181" errors="0">
-  <testcase name="testAddressSearch" time="7.876" classname="com.qmetric.tests.PageOneUITest"/>
-  <testcase name="testPropertyTypeDropDowns" time="15.059" classname="com.qmetric.tests.PageOneUITest"/>
-  <testcase name="testAddressSearchValidationText" time="2.329" classname="com.qmetric.tests.PageOneUITest"/>
-  <testcase name="testPageTitle" time="2.22" classname="com.qmetric.tests.PageOneUITest"/>
-  <testcase name="testAddressManualEdit" time="6.067" classname="com.qmetric.tests.PageOneUITest"/>
+<testsuite hostname="Oliver-Brays-iMac.local" name="com.qmetric.tests.LandingPageTest" tests="6" failures="0" timestamp="27 Jul 2012 14:55:23 GMT" time="0.027" errors="0">
+  <testcase name="@BeforeClass setUp" time="0.0" classname="com.qmetric.tests.LandingPageTest">
+    <failure type="org.testng.TestNGException" message="
+Parameter &amp;apos;browserVersion&amp;apos; is required by @Configuration on method setUp
+but has not been marked @Optional or defined in /Users/oliverbray/projects/olly-selenium/functional-tests/src/test/resources/local-profile.xml">
+      <![CDATA[org.testng.TestNGException: 
+Parameter 'browserVersion' is required by @Configuration on method setUp
+but has not been marked @Optional or defined in /Users/oliverbray/projects/olly-selenium/functional-tests/src/test/resources/local-profile.xml
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+... Removed 7 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@BeforeClass setUp" time="0.0" classname="com.qmetric.tests.PageOneUITest">
+    <failure type="org.testng.TestNGException" message="
+Parameter &amp;apos;browserVersion&amp;apos; is required by @Configuration on method setUp
+but has not been marked @Optional or defined in /Users/oliverbray/projects/olly-selenium/functional-tests/src/test/resources/local-profile.xml">
+      <![CDATA[org.testng.TestNGException: 
+Parameter 'browserVersion' is required by @Configuration on method setUp
+but has not been marked @Optional or defined in /Users/oliverbray/projects/olly-selenium/functional-tests/src/test/resources/local-profile.xml
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+... Removed 7 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@BeforeMethod getToLandingPage" time="0.0" classname="com.qmetric.tests.LandingPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod getToPage1" time="0.0" classname="com.qmetric.tests.PageOneUITest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterClass tearDown" time="0.0" classname="com.qmetric.tests.LandingPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod getToPage1" time="0.0" classname="com.qmetric.tests.PageOneUITest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod getToPage1" time="0.0" classname="com.qmetric.tests.PageOneUITest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod getToPage1" time="0.0" classname="com.qmetric.tests.PageOneUITest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod getToPage1" time="0.0" classname="com.qmetric.tests.PageOneUITest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterClass tearDown" time="0.0" classname="com.qmetric.tests.PageOneUITest">
+    <skipped/>
+  </testcase>
+  <testcase name="testAddressSearch" time="0.0050" classname="com.qmetric.tests.PageOneUITest">
+    <skipped/>
+  </testcase>
+  <testcase name="testPageTitle" time="0.0050" classname="com.qmetric.tests.LandingPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="testPropertyTypeDropDowns" time="0.0" classname="com.qmetric.tests.PageOneUITest">
+    <skipped/>
+  </testcase>
+  <testcase name="testAddressSearchValidationText" time="0.0" classname="com.qmetric.tests.PageOneUITest">
+    <skipped/>
+  </testcase>
+  <testcase name="testPageTitle" time="0.0" classname="com.qmetric.tests.PageOneUITest">
+    <skipped/>
+  </testcase>
+  <testcase name="testAddressManualEdit" time="0.0" classname="com.qmetric.tests.PageOneUITest">
+    <skipped/>
+  </testcase>
 </testsuite>
