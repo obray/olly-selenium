@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="10" verbose="0" name="Failed suite [Grid-Profile]" parallel="tests">
+  <parameter name="browserVersion" value="any"/>
   <parameter name="hubHost" value="localhost"/>
   <parameter name="hubPort" value="4444"/>
   <parameter name="enquiryCreationPostForm" value="https://localhost"/>
   <parameter name="browserId" value="chrome"/>
   <parameter name="defaultWebappUrl" value="http://localhost"/>
   <test name="GoogleChrome(failed)" parallel="classes" preserve-order="false">
+    <parameter name="browserVersion" value="any"/>
     <parameter name="hubHost" value="localhost"/>
     <parameter name="hubPort" value="4444"/>
     <parameter name="enquiryCreationPostForm" value="https://localhost"/>
@@ -15,6 +17,7 @@
     <classes>
       <class name="com.qmetric.tests.LandingPageTest">
         <methods>
+          <include name="setUp"/>
           <include name="testPageTitle"/>
         </methods>
       </class>
@@ -24,12 +27,14 @@
           <include name="testAddressSearch"/>
           <include name="testAddressSearchValidationText"/>
           <include name="testPageTitle"/>
+          <include name="setUp"/>
           <include name="testAddressManualEdit"/>
         </methods>
       </class>
     </classes>
   </test>
   <test name="Firefox(failed)" parallel="classes" preserve-order="false">
+    <parameter name="browserVersion" value="any"/>
     <parameter name="hubHost" value="localhost"/>
     <parameter name="hubPort" value="4444"/>
     <parameter name="enquiryCreationPostForm" value="https://localhost"/>
@@ -38,6 +43,7 @@
     <classes>
       <class name="com.qmetric.tests.LandingPageTest">
         <methods>
+          <include name="setUp"/>
           <include name="testPageTitle"/>
         </methods>
       </class>
@@ -47,6 +53,7 @@
           <include name="testAddressSearch"/>
           <include name="testAddressSearchValidationText"/>
           <include name="testPageTitle"/>
+          <include name="setUp"/>
           <include name="testAddressManualEdit"/>
         </methods>
       </class>
