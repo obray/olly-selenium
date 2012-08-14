@@ -5,42 +5,14 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/InternetExplorer.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/InternetExplorer.properties" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/InternetExplorer.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/qmetric/pages/LandingPage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/qmetric/pages/LandingPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/qmetric/tests/LandingPageTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/qmetric/tests/LandingPageTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/qmetric/tests/PageOneUITest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/qmetric/tests/PageOneUITest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/qmetric/utility/AbstractTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/qmetric/utility/AbstractTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/qmetric/utility/FrontendConstants.class" afterPath="$PROJECT_DIR$/target/test-classes/com/qmetric/utility/FrontendConstants.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/InternetExplorer9.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/InternetExplorer9.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/InternetExplorer9.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/misc.xml" afterPath="$PROJECT_DIR$/../.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ec2-api-tools-1.5.6.0/scripts/ci-instances.sh" afterPath="$PROJECT_DIR$/../ec2-api-tools-1.5.6.0/scripts/ci-instances.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/qmetric/pages/LandingPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/qmetric/pages/LandingPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/qmetric/tests/LandingPageTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/qmetric/tests/LandingPageTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/qmetric/utility/AbstractTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/qmetric/utility/AbstractTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/qmetric/utility/FrontendConstants.java" afterPath="$PROJECT_DIR$/src/test/java/com/qmetric/utility/FrontendConstants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/ci-profile.xml" afterPath="$PROJECT_DIR$/src/test/resources/ci-profile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/Firefox.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/Firefox.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/Firefox.properties" afterPath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/Firefox.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/Firefox.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/Firefox.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/GoogleChrome.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/GoogleChrome.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/GoogleChrome.properties" afterPath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/GoogleChrome.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/GoogleChrome.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/GoogleChrome.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/classes.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/classes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/methods-alphabetical.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/methods-alphabetical.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/methods.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/methods.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/testng-failed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/testng.xml.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/testng.xml.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/toc.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Grid-Profile/toc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.qmetric.tests.LandingPageTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.qmetric.tests.LandingPageTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.qmetric.tests.PageOneUITest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.qmetric.tests.PageOneUITest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/ci-profile.xml" afterPath="$PROJECT_DIR$/target/test-classes/ci-profile.xml" />
     </list>
     <ignored path="FunctionalTests.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -145,10 +117,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ci-profile.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ci-profile.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/ci-profile.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="79" selection-start="911" selection-end="911" vertical-scroll-proportion="0.33943966">
+            <state line="49" column="112" selection-start="1786" selection-end="1786" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -163,10 +135,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LandingPage.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LandingPage.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qmetric/pages/LandingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="25" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
+            <state line="13" column="32" selection-start="381" selection-end="381" vertical-scroll-proportion="0.11314655">
               <folding />
             </state>
           </provider>
@@ -186,7 +158,7 @@
       <file leaf-file-name="FrontendConstants.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qmetric/utility/FrontendConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="89" selection-start="3007" selection-end="3007" vertical-scroll-proportion="0.0">
+            <state line="12" column="4" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -218,9 +190,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/qmetric/tests/PageOneUITest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qmetric/utility/AbstractTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qmetric/tests/LandingPageTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/qmetric/pages/LandingPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/qmetric/utility/FrontendConstants.java" />
         <option value="$PROJECT_DIR$/src/test/resources/ci-profile.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qmetric/utility/FrontendConstants.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qmetric/pages/LandingPage.java" />
       </list>
     </option>
   </component>
@@ -885,20 +857,6 @@
         <state line="31" column="22" selection-start="953" selection-end="953" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qmetric/utility/FrontendConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="89" selection-start="3007" selection-end="3007" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qmetric/pages/LandingPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qmetric/utility/AbstractTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="37" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
@@ -919,7 +877,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/ci-profile.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="79" selection-start="911" selection-end="911" vertical-scroll-proportion="0.33943966">
+        <state line="49" column="112" selection-start="1786" selection-end="1786" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qmetric/utility/FrontendConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="4" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qmetric/pages/LandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="32" selection-start="381" selection-end="381" vertical-scroll-proportion="0.11314655">
           <folding />
         </state>
       </provider>

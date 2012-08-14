@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="3" time="16.215" errors="0" skipped="27" tests="33" name="TestSuite">
+<testsuite failures="0" time="28.162" errors="0" skipped="0" tests="12" name="TestSuite">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
@@ -22,7 +22,7 @@
     <property name="basedir" value="/Users/obray/projects/olly-selenium/functional-tests"/>
     <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="surefire.real.class.path" value="/Users/obray/projects/olly-selenium/functional-tests/target/surefire/surefirebooter253248632749810017.jar"/>
+    <property name="surefire.real.class.path" value="/Users/obray/projects/olly-selenium/functional-tests/target/surefire/surefirebooter866030088210441525.jar"/>
     <property name="java.io.tmpdir" value="/var/folders/yc/ycXrZjWfEdWgHWGbDYYkdU+++TI/-Tmp-/"/>
     <property name="line.separator" value="
 "/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
-    <property name="sun.java.command" value="/Users/obray/projects/olly-selenium/functional-tests/target/surefire/surefirebooter253248632749810017.jar /Users/obray/projects/olly-selenium/functional-tests/target/surefire/surefire7628249365784766592tmp /Users/obray/projects/olly-selenium/functional-tests/target/surefire/surefire2677871007072864961tmp"/>
+    <property name="sun.java.command" value="/Users/obray/projects/olly-selenium/functional-tests/target/surefire/surefirebooter866030088210441525.jar /Users/obray/projects/olly-selenium/functional-tests/target/surefire/surefire4124007075645909312tmp /Users/obray/projects/olly-selenium/functional-tests/target/surefire/surefire3375260752361722036tmp"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="apple.awt.CToolkit"/>
@@ -65,338 +65,16 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.126" classname="com.qmetric.tests.LandingPageTest" name="testPageTitle"/>
-  <testcase time="0.078" classname="com.qmetric.tests.LandingPageTest" name="testPageTitle"/>
-  <testcase time="0.6" classname="com.qmetric.tests.PageOneUITest" name="getToPage1">
-    <failure message="findElement execution failed;
- SYNTAX_ERR: DOM Exception 12 (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 61 milliseconds
-Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 21:08:56&apos;
-System info: os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0_25&apos;
-Driver info: driver.version: EventFiringWebDriver
-Session ID: f3c387b407d2980cdefd141b3d7f4302
-Build info: version: &apos;2.24.1&apos;, revision: &apos;17205&apos;, time: &apos;2012-06-19 15:28:49&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.6.8&apos;, java.version: &apos;1.6.0_33&apos;
-Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.InvalidElementStateException">org.openqa.selenium.InvalidElementStateException: findElement execution failed;
- SYNTAX_ERR: DOM Exception 12 (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 61 milliseconds
-Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 21:08:56&apos;
-System info: os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0_25&apos;
-Driver info: driver.version: EventFiringWebDriver
-Session ID: f3c387b407d2980cdefd141b3d7f4302
-Build info: version: &apos;2.24.1&apos;, revision: &apos;17205&apos;, time: &apos;2012-06-19 15:28:49&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.6.8&apos;, java.version: &apos;1.6.0_33&apos;
-Driver info: driver.version: RemoteWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:131)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:105)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:409)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:197)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:262)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:405)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:189)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
-	at $Proxy10.click(Unknown Source)
-	at com.qmetric.pages.LandingPage.clickNewEnquiry(LandingPage.java:22)
-	at com.qmetric.pages.LandingPage.startNewEnquiry(LandingPage.java:26)
-	at com.qmetric.tests.PageOneUITest.getToPage1(PageOneUITest.java:18)
-Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
-Build info: version: &apos;2.24.1&apos;, revision: &apos;17205&apos;, time: &apos;2012-06-19 15:28:49&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.6.8&apos;, java.version: &apos;1.6.0_33&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:99)
-	... 26 more
-Caused by: org.openqa.selenium.InvalidElementStateException: findElement execution failed;
- SYNTAX_ERR: DOM Exception 12 (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 61 milliseconds
-Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 21:08:56&apos;
-System info: os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0_25&apos;
-Driver info: driver.version: EventFiringWebDriver
-Session ID: f3c387b407d2980cdefd141b3d7f4302
-Build info: version: &apos;2.24.1&apos;, revision: &apos;17205&apos;, time: &apos;2012-06-19 15:28:49&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.6.8&apos;, java.version: &apos;1.6.0_33&apos;
-Driver info: driver.version: EventFiringWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:498)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:268)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:345)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:406)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:260)
-	at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
-	at java.lang.reflect.Method.invoke(Method.java:597)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
-	at $Proxy1.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:180)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:150)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
-	at java.lang.Thread.run(Thread.java:662)
-</failure>
-  </testcase>
-  <testcase time="0" classname="com.qmetric.tests.PageOneUITest" name="testAddressSearch">
-    <skipped/>
-  </testcase>
-  <testcase time="0.001" classname="com.qmetric.tests.PageOneUITest" name="getToPage1">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.qmetric.tests.PageOneUITest" name="testPropertyTypeDropDowns">
-    <skipped/>
-  </testcase>
-  <testcase time="0.001" classname="com.qmetric.tests.PageOneUITest" name="getToPage1">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.qmetric.tests.PageOneUITest" name="testAddressSearchValidationText">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.qmetric.tests.PageOneUITest" name="getToPage1">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.qmetric.tests.PageOneUITest" name="testPageTitle">
-    <skipped/>
-  </testcase>
-  <testcase time="0.001" classname="com.qmetric.tests.PageOneUITest" name="getToPage1">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.qmetric.tests.PageOneUITest" name="testAddressManualEdit">
-    <skipped/>
-  </testcase>
-  <testcase time="0.111" classname="com.qmetric.tests.LandingPageTest" name="testPageTitle"/>
-  <testcase time="0.22" classname="com.qmetric.tests.PageOneUITest" name="getToPage1">
-    <failure message="The given selector //button[@type=&apos;submit&apos;] is either invalid or does not result in a WebElement. The following error occurred:
-[Exception... &quot;An invalid or illegal string was specified&quot;  code: &quot;12&quot; nsresult: &quot;0x8053000c (NS_ERROR_DOM_SYNTAX_ERR)&quot;  location: &quot;file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous1625410346955330381webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js Line: 5993&quot;]
-Command duration or timeout: 15 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 21:08:56&apos;
-System info: os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0_25&apos;
-Driver info: driver.version: EventFiringWebDriver
-Session ID: 04c6e461-94a6-4de3-a58b-5696b0abdf0f
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: &apos;2.24.1&apos;, revision: &apos;17205&apos;, time: &apos;2012-06-19 15:28:49&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.6.8&apos;, java.version: &apos;1.6.0_33&apos;
-Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: The given selector //button[@type=&apos;submit&apos;] is either invalid or does not result in a WebElement. The following error occurred:
-[Exception... &quot;An invalid or illegal string was specified&quot;  code: &quot;12&quot; nsresult: &quot;0x8053000c (NS_ERROR_DOM_SYNTAX_ERR)&quot;  location: &quot;file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous1625410346955330381webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js Line: 5993&quot;]
-Command duration or timeout: 15 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 21:08:56&apos;
-System info: os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0_25&apos;
-Driver info: driver.version: EventFiringWebDriver
-Session ID: 04c6e461-94a6-4de3-a58b-5696b0abdf0f
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: &apos;2.24.1&apos;, revision: &apos;17205&apos;, time: &apos;2012-06-19 15:28:49&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.6.8&apos;, java.version: &apos;1.6.0_33&apos;
-Driver info: driver.version: RemoteWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:131)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:105)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:409)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:197)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:262)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:405)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:189)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
-	at $Proxy10.click(Unknown Source)
-	at com.qmetric.pages.LandingPage.clickNewEnquiry(LandingPage.java:22)
-	at com.qmetric.pages.LandingPage.startNewEnquiry(LandingPage.java:26)
-	at com.qmetric.tests.PageOneUITest.getToPage1(PageOneUITest.java:18)
-Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
-Build info: version: &apos;2.24.1&apos;, revision: &apos;17205&apos;, time: &apos;2012-06-19 15:28:49&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.6.8&apos;, java.version: &apos;1.6.0_33&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:99)
-	... 26 more
-Caused by: org.openqa.selenium.InvalidSelectorException: The given selector //button[@type=&apos;submit&apos;] is either invalid or does not result in a WebElement. The following error occurred:
-[Exception... &quot;An invalid or illegal string was specified&quot;  code: &quot;12&quot; nsresult: &quot;0x8053000c (NS_ERROR_DOM_SYNTAX_ERR)&quot;  location: &quot;file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous1625410346955330381webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js Line: 5993&quot;]
-Command duration or timeout: 15 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 21:08:56&apos;
-System info: os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0_25&apos;
-Driver info: driver.version: EventFiringWebDriver
-Session ID: 04c6e461-94a6-4de3-a58b-5696b0abdf0f
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: &apos;2.24.1&apos;, revision: &apos;17205&apos;, time: &apos;2012-06-19 15:28:49&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.6.8&apos;, java.version: &apos;1.6.0_33&apos;
-Driver info: driver.version: EventFiringWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:498)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:268)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:345)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:406)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:260)
-	at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
-	at java.lang.reflect.Method.invoke(Method.java:597)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
-	at $Proxy1.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:180)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:150)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
-	at java.lang.Thread.run(Thread.java:662)
-</failure>
-  </testcase>
-  <testcase time="0" classname="com.qmetric.tests.PageOneUITest" name="testAddressSearch">
-    <skipped/>
-  </testcase>
-  <testcase time="0.001" classname="com.qmetric.tests.PageOneUITest" name="getToPage1">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.qmetric.tests.PageOneUITest" name="testPropertyTypeDropDowns">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.qmetric.tests.PageOneUITest" name="getToPage1">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.qmetric.tests.PageOneUITest" name="testAddressSearchValidationText">
-    <skipped/>
-  </testcase>
-  <testcase time="0.001" classname="com.qmetric.tests.PageOneUITest" name="getToPage1">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.qmetric.tests.PageOneUITest" name="testPageTitle">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.qmetric.tests.PageOneUITest" name="getToPage1">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.qmetric.tests.PageOneUITest" name="testAddressManualEdit">
-    <skipped/>
-  </testcase>
-  <testcase time="7.999" classname="com.qmetric.tests.PageOneUITest" name="getToPage1">
-    <failure message="Unable to find element with css selector == //button[@type=&apos;submit&apos;] (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.15 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 21:08:56&apos;
-System info: os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0_25&apos;
-Driver info: driver.version: EventFiringWebDriver
-Session ID: b1d14394-e89f-4342-9e56-31c297e6ddac
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.24.1&apos;, revision: &apos;17205&apos;, time: &apos;2012-06-19 15:28:49&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.6.8&apos;, java.version: &apos;1.6.0_33&apos;
-Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to find element with css selector == //button[@type=&apos;submit&apos;] (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.15 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 21:08:56&apos;
-System info: os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0_25&apos;
-Driver info: driver.version: EventFiringWebDriver
-Session ID: b1d14394-e89f-4342-9e56-31c297e6ddac
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.24.1&apos;, revision: &apos;17205&apos;, time: &apos;2012-06-19 15:28:49&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.6.8&apos;, java.version: &apos;1.6.0_33&apos;
-Driver info: driver.version: RemoteWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:131)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:105)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:409)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:197)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:262)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:405)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:189)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
-	at $Proxy10.click(Unknown Source)
-	at com.qmetric.pages.LandingPage.clickNewEnquiry(LandingPage.java:22)
-	at com.qmetric.pages.LandingPage.startNewEnquiry(LandingPage.java:26)
-	at com.qmetric.tests.PageOneUITest.getToPage1(PageOneUITest.java:18)
-Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
-Build info: version: &apos;2.24.1&apos;, revision: &apos;17205&apos;, time: &apos;2012-06-19 15:28:49&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.6.8&apos;, java.version: &apos;1.6.0_33&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:99)
-	... 26 more
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with css selector == //button[@type=&apos;submit&apos;] (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.15 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 21:08:56&apos;
-System info: os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0_25&apos;
-Driver info: driver.version: EventFiringWebDriver
-Session ID: b1d14394-e89f-4342-9e56-31c297e6ddac
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.24.1&apos;, revision: &apos;17205&apos;, time: &apos;2012-06-19 15:28:49&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.6.8&apos;, java.version: &apos;1.6.0_33&apos;
-Driver info: driver.version: EventFiringWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:498)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:268)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:345)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:406)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:260)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
-	at java.lang.reflect.Method.invoke(Method.java:597)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
-	at $Proxy2.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:180)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:150)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
-	at java.lang.Thread.run(Thread.java:662)
-</failure>
-  </testcase>
-  <testcase time="0" classname="com.qmetric.tests.PageOneUITest" name="testAddressSearch">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.qmetric.tests.PageOneUITest" name="getToPage1">
-    <skipped/>
-  </testcase>
-  <testcase time="0.001" classname="com.qmetric.tests.PageOneUITest" name="testPropertyTypeDropDowns">
-    <skipped/>
-  </testcase>
-  <testcase time="0.001" classname="com.qmetric.tests.PageOneUITest" name="getToPage1">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.qmetric.tests.PageOneUITest" name="testAddressSearchValidationText">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.qmetric.tests.PageOneUITest" name="getToPage1">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.qmetric.tests.PageOneUITest" name="testPageTitle">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.qmetric.tests.PageOneUITest" name="getToPage1">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.qmetric.tests.PageOneUITest" name="testAddressManualEdit">
-    <skipped/>
-  </testcase>
+  <testcase time="0.932" classname="com.qmetric.tests.PageOneUITest" name="testAddressSearch"/>
+  <testcase time="2.138" classname="com.qmetric.tests.PageOneUITest" name="testAddressSearch"/>
+  <testcase time="3.096" classname="com.qmetric.tests.PageOneUITest" name="testPropertyTypeDropDowns"/>
+  <testcase time="0.254" classname="com.qmetric.tests.PageOneUITest" name="testAddressSearchValidationText"/>
+  <testcase time="0.055" classname="com.qmetric.tests.PageOneUITest" name="testPageTitle"/>
+  <testcase time="1.076" classname="com.qmetric.tests.PageOneUITest" name="testPropertyTypeDropDowns"/>
+  <testcase time="2.928" classname="com.qmetric.tests.PageOneUITest" name="testAddressManualEdit"/>
+  <testcase time="0.588" classname="com.qmetric.tests.PageOneUITest" name="testAddressSearchValidationText"/>
+  <testcase time="0.472" classname="com.qmetric.tests.PageOneUITest" name="testPageTitle"/>
+  <testcase time="0.064" classname="com.qmetric.tests.LandingPageTest" name="testPageTitle"/>
+  <testcase time="2.46" classname="com.qmetric.tests.PageOneUITest" name="testAddressManualEdit"/>
+  <testcase time="0.058" classname="com.qmetric.tests.LandingPageTest" name="testPageTitle"/>
 </testsuite>

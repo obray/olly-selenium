@@ -23,7 +23,7 @@
         </packages>
     </test>
 
-    <test name="InternetExplorer9" parallel="classes">
+    <!--<test name="InternetExplorer9" parallel="classes">
         <parameter name="browserId" value="internet explorer"/>
         <parameter name="browserVersion" value="9"/>
         <packages>
@@ -31,7 +31,7 @@
         </packages>
     </test>
 
-    <!--<test name="InternetExplorer8" parallel="classes">
+    <test name="InternetExplorer8" parallel="classes">
         <parameter name="browserId" value="internet explorer"/>
         <parameter name="browserVersion" value="8"/>
         <packages>
