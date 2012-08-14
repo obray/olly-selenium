@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="Oliver-Brays-iMac.local" name="com.qmetric.tests.LandingPageTest" tests="6" failures="0" timestamp="14 Aug 2012 10:45:00 GMT" time="8.626" errors="0">
+<testsuite hostname="Oliver-Brays-iMac.local" name="com.qmetric.tests.LandingPageTest" tests="6" failures="0" timestamp="14 Aug 2012 10:45:07 GMT" time="15.826" errors="0">
   <testcase name="@BeforeMethod getToPage1" time="0.0" classname="com.qmetric.tests.PageOneUITest">
-    <failure type="org.openqa.selenium.InvalidElementStateException" message="findElement execution failed;
- SYNTAX_ERR: DOM Exception 12 (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 61 milliseconds
+    <failure type="org.openqa.selenium.NoSuchElementException" message="Unable to find element with css selector == //button[@type=&amp;apos;submit&amp;apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &amp;apos;2.25.0&amp;apos;, revision: &amp;apos;17482&amp;apos;, time: &amp;apos;2012-07-18 21:08:56&amp;apos;
 System info: os.name: &amp;apos;Windows Server 2008 R2&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.6.0_25&amp;apos;
 Driver info: driver.version: EventFiringWebDriver
-Session ID: f3c387b407d2980cdefd141b3d7f4302
+Session ID: b1d14394-e89f-4342-9e56-31c297e6ddac
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &amp;apos;2.24.1&amp;apos;, revision: &amp;apos;17205&amp;apos;, time: &amp;apos;2012-06-19 15:28:49&amp;apos;
 System info: os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.6.8&amp;apos;, java.version: &amp;apos;1.6.0_33&amp;apos;
 Driver info: driver.version: RemoteWebDriver">
-      <![CDATA[org.openqa.selenium.InvalidElementStateException: findElement execution failed;
- SYNTAX_ERR: DOM Exception 12 (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 61 milliseconds
+      <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with css selector == //button[@type='submit'] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 21:08:56'
 System info: os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_25'
 Driver info: driver.version: EventFiringWebDriver
-Session ID: f3c387b407d2980cdefd141b3d7f4302
+Session ID: b1d14394-e89f-4342-9e56-31c297e6ddac
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.24.1', revision: '17205', time: '2012-06-19 15:28:49'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.6.8', java.version: '1.6.0_33'
 Driver info: driver.version: RemoteWebDriver
@@ -43,13 +45,14 @@ System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.6.8', java.
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:99)
 	... 26 more
-Caused by: org.openqa.selenium.InvalidElementStateException: findElement execution failed;
- SYNTAX_ERR: DOM Exception 12 (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 61 milliseconds
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with css selector == //button[@type='submit'] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 21:08:56'
 System info: os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_25'
 Driver info: driver.version: EventFiringWebDriver
-Session ID: f3c387b407d2980cdefd141b3d7f4302
+Session ID: b1d14394-e89f-4342-9e56-31c297e6ddac
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.24.1', revision: '17205', time: '2012-06-19 15:28:49'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.6.8', java.version: '1.6.0_33'
 Driver info: driver.version: EventFiringWebDriver
@@ -61,7 +64,7 @@ Driver info: driver.version: EventFiringWebDriver
 	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:406)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:260)
 	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
-	at $Proxy1.findElement(Unknown Source)
+	at $Proxy2.findElement(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:180)
 	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
 	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
@@ -71,7 +74,7 @@ Driver info: driver.version: EventFiringWebDriver
 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
 	at java.lang.Thread.run(Thread.java:662)
-... Removed 23 stack frames]]>
+... Removed 24 stack frames]]>
     </failure>
   </testcase>
   <testcase name="@BeforeMethod getToPage1" time="0.0" classname="com.qmetric.tests.PageOneUITest">
@@ -86,20 +89,20 @@ Driver info: driver.version: EventFiringWebDriver
   <testcase name="@BeforeMethod getToPage1" time="0.0" classname="com.qmetric.tests.PageOneUITest">
     <skipped/>
   </testcase>
+  <testcase name="testPageTitle" time="0.126" classname="com.qmetric.tests.LandingPageTest"/>
   <testcase name="testAddressSearch" time="0.0" classname="com.qmetric.tests.PageOneUITest">
     <skipped/>
   </testcase>
-  <testcase name="testPropertyTypeDropDowns" time="0.0" classname="com.qmetric.tests.PageOneUITest">
+  <testcase name="testPropertyTypeDropDowns" time="0.0010" classname="com.qmetric.tests.PageOneUITest">
     <skipped/>
   </testcase>
   <testcase name="testAddressSearchValidationText" time="0.0" classname="com.qmetric.tests.PageOneUITest">
     <skipped/>
   </testcase>
-  <testcase name="testPageTitle" time="0.0" classname="com.qmetric.tests.PageOneUITest">
+  <testcase name="testPageTitle" time="0.0010" classname="com.qmetric.tests.PageOneUITest">
     <skipped/>
   </testcase>
   <testcase name="testAddressManualEdit" time="0.0" classname="com.qmetric.tests.PageOneUITest">
     <skipped/>
   </testcase>
-  <testcase name="testPageTitle" time="0.111" classname="com.qmetric.tests.LandingPageTest"/>
 </testsuite>

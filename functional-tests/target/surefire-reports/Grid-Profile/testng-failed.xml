@@ -1,60 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="10" verbose="0" name="Failed suite [Grid-Profile]" parallel="tests">
-  <parameter name="browserVersion" value="any"/>
-  <parameter name="hubHost" value="localhost"/>
+  <parameter name="browserVersion" value="9"/>
+  <parameter name="hubHost" value="ec2-46-137-83-19.eu-west-1.compute.amazonaws.com"/>
   <parameter name="hubPort" value="4444"/>
-  <parameter name="enquiryCreationPostForm" value="https://localhost"/>
-  <parameter name="browserId" value="chrome"/>
-  <parameter name="defaultWebappUrl" value="http://localhost"/>
+  <parameter name="enquiryCreationPostForm" value="http://uat.policyexpert.co.uk"/>
+  <parameter name="browserId" value="internet explorer"/>
+  <parameter name="defaultWebappUrl" value="uat.policyexpert.co.uk"/>
   <test name="GoogleChrome(failed)" parallel="classes" preserve-order="false">
     <parameter name="browserVersion" value="any"/>
-    <parameter name="hubHost" value="localhost"/>
+    <parameter name="hubHost" value="ec2-46-137-83-19.eu-west-1.compute.amazonaws.com"/>
     <parameter name="hubPort" value="4444"/>
-    <parameter name="enquiryCreationPostForm" value="https://localhost"/>
+    <parameter name="enquiryCreationPostForm" value="http://uat.policyexpert.co.uk"/>
     <parameter name="browserId" value="chrome"/>
-    <parameter name="defaultWebappUrl" value="http://localhost"/>
+    <parameter name="defaultWebappUrl" value="uat.policyexpert.co.uk"/>
     <classes>
       <class name="com.qmetric.tests.LandingPageTest">
         <methods>
+          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="testPageTitle"/>
+          <include name="getToPage1"/>
         </methods>
       </class>
       <class name="com.qmetric.tests.PageOneUITest">
         <methods>
           <include name="testPropertyTypeDropDowns"/>
           <include name="testAddressSearch"/>
+          <include name="tearDown"/>
           <include name="testAddressSearchValidationText"/>
           <include name="testPageTitle"/>
           <include name="setUp"/>
           <include name="testAddressManualEdit"/>
+          <include name="getToPage1"/>
         </methods>
       </class>
     </classes>
   </test>
   <test name="Firefox(failed)" parallel="classes" preserve-order="false">
     <parameter name="browserVersion" value="any"/>
-    <parameter name="hubHost" value="localhost"/>
+    <parameter name="hubHost" value="ec2-46-137-83-19.eu-west-1.compute.amazonaws.com"/>
     <parameter name="hubPort" value="4444"/>
-    <parameter name="enquiryCreationPostForm" value="https://localhost"/>
+    <parameter name="enquiryCreationPostForm" value="http://uat.policyexpert.co.uk"/>
     <parameter name="browserId" value="firefox"/>
-    <parameter name="defaultWebappUrl" value="http://localhost"/>
+    <parameter name="defaultWebappUrl" value="uat.policyexpert.co.uk"/>
     <classes>
       <class name="com.qmetric.tests.LandingPageTest">
         <methods>
+          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="testPageTitle"/>
+          <include name="getToPage1"/>
         </methods>
       </class>
       <class name="com.qmetric.tests.PageOneUITest">
         <methods>
           <include name="testPropertyTypeDropDowns"/>
           <include name="testAddressSearch"/>
+          <include name="tearDown"/>
           <include name="testAddressSearchValidationText"/>
           <include name="testPageTitle"/>
           <include name="setUp"/>
           <include name="testAddressManualEdit"/>
+          <include name="getToPage1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="InternetExplorer9(failed)" parallel="classes" preserve-order="false">
+    <parameter name="browserVersion" value="9"/>
+    <parameter name="hubHost" value="ec2-46-137-83-19.eu-west-1.compute.amazonaws.com"/>
+    <parameter name="hubPort" value="4444"/>
+    <parameter name="enquiryCreationPostForm" value="http://uat.policyexpert.co.uk"/>
+    <parameter name="browserId" value="internet explorer"/>
+    <parameter name="defaultWebappUrl" value="uat.policyexpert.co.uk"/>
+    <classes>
+      <class name="com.qmetric.tests.LandingPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="getToPage1"/>
+        </methods>
+      </class>
+      <class name="com.qmetric.tests.PageOneUITest">
+        <methods>
+          <include name="testPropertyTypeDropDowns"/>
+          <include name="testAddressSearch"/>
+          <include name="tearDown"/>
+          <include name="testAddressSearchValidationText"/>
+          <include name="testPageTitle"/>
+          <include name="setUp"/>
+          <include name="testAddressManualEdit"/>
+          <include name="getToPage1"/>
         </methods>
       </class>
     </classes>

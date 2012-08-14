@@ -11,7 +11,7 @@ import static com.qmetric.utility.FrontendConstants.*;
 public class LandingPage {
     final WebDriver driver;
 
-    @FindBy(how = How.XPATH, using = FRONT_LANDING_PAGE_NEW_ENQUIRY_BUTTON)
+    @FindBy(how = How.CSS, using = FRONT_LANDING_PAGE_NEW_ENQUIRY_BUTTON)
     public WebElement newEnquiryButton;
 
     public LandingPage(WebDriver driver) {

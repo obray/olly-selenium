@@ -10,7 +10,7 @@ public class FrontendConstants {
 
     // Web elements
     public final static String FRONT_LANDING_PAGE_NEW_ENQUIRY_BUTTON = "//button[@type='submit']";
-    //public final static String FRONT_LANDING_PAGE_NEW_ENQUIRY_BUTTON = "button[type='submit']";
+    //public final static String FRONT_LANDING_PAGE_NEW_ENQUIRY_BUTTON = "Home_getaquote_1";
     //public final static String FRONT_LANDING_PAGE_NEW_ENQUIRY_BUTTON = "purple";
 
     public final static String FRONT_PAGE1_ADDRESS_SEARCH_BUTTON = "addressSearch";
@@ -43,6 +43,7 @@ public class FrontendConstants {
 
     // Page titles
     public final static String FRONT_PAGE1_TITLE = "Get a quote";
+    public final static String FRONT_LANDING_PAGE_TITLE = "Policy Expert - the Insurance Specialists";
 
 
     // Validation

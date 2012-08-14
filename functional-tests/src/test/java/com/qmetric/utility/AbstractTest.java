@@ -1,16 +1,12 @@
 package com.qmetric.utility;
 
-import com.gargoylesoftware.htmlunit.BrowserVersion;
 import com.qmetric.pages.QSPage1;
-import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
-
 
 import java.net.URL;
 import java.util.concurrent.TimeUnit;

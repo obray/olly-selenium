@@ -15,7 +15,7 @@
         </packages>
     </test>
     
-    <!--<test name="GoogleChrome" parallel="classes">
+    <test name="GoogleChrome" parallel="classes">
         <parameter name="browserId" value="chrome"/>
         <parameter name="browserVersion" value="any"/>
         <packages>
@@ -31,7 +31,7 @@
         </packages>
     </test>
 
-    <test name="InternetExplorer8" parallel="classes">
+    <!--<test name="InternetExplorer8" parallel="classes">
         <parameter name="browserId" value="internet explorer"/>
         <parameter name="browserVersion" value="8"/>
         <packages>
@@ -45,6 +45,6 @@
         <packages>
             <package name="com.qmetric.tests.*" />
         </packages>
-    </test>-->
+    </test> -->
 
 </suite>
